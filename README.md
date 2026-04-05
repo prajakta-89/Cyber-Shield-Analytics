@@ -35,18 +35,12 @@ Open a terminal and start the background script that monitors the logs:
 ```python
 python detector.py
 ```
-<p>
-  <img src="showcase_&_results/run_detector.png" width="700"/>
-</p>
 
 ### 5. Launch the Dashboard
 Open a second terminal and run the UI:
 ```python
 streamlit run ap.py
 ```
-<p>
-  <img src="showcase_&_results/run_ap.png" width="700"/>
-</p>
 
 ### 6. How It Works (The Logic)Detection: 
 The detector.py script acts as a "Watcher." it stays active (using a while loop) and reads the server_access.log file every few seconds.
