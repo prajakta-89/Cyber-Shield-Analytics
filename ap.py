@@ -19,7 +19,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Prajakta@567.", 
+        password=" ", # your sql workbench password
         database="cyber_security_db"
     )
 
