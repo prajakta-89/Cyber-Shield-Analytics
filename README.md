@@ -36,7 +36,7 @@ Open a terminal and start the background script that monitors the logs:
 python detector.py
 ```
 <p>
-  <img src="showcase_&_result/run_detector.png" width="700"/>
+  <img src="showcase_&_results/run_detector.png" width="700"/>
 </p>
 
 ### 5. Launch the Dashboard
@@ -45,7 +45,7 @@ Open a second terminal and run the UI:
 streamlit run ap.py
 ```
 <p>
-  <img src="showcase_&_result/run_ap.png" width="700"/>
+  <img src="showcase_&_results/run_ap.png" width="700"/>
 </p>
 
 ### 6. How It Works (The Logic)Detection: 
@@ -63,7 +63,8 @@ Visualization: The Streamlit app.py queries the database and turns those raw row
 <p>
   <img src="showcase_&_results/result_grid1.png" width="700"/>
 </p>
+
 - result_grid2
 <p>
-  <img src="showcase_&_result/result_grid2.png" width="700"/>
+  <img src="showcase_&_results/result_grid2.png" width="700"/>
 </p>
