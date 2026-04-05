@@ -2,6 +2,10 @@
 CyberShield Analytics is a full-stack cybersecurity monitoring solution designed to detect, log, and visualize potential network threats in real-time. 
 By combining a Python-based "Watcher" script with a Streamlit web interface and a MySQL backend, this system provides security analysts with an instant view of system health and risk levels.
 
+<p>
+  <img src="cybershield_dashboard.png" width="700"/>
+</p>
+
 ## Key Features:
 - Live Log Monitoring: Automatically scans server logs for keywords like "FAILED" or "ATTACK."
 - Dynamic Risk Scoring: Calculates threat levels based on event severity and asset criticality.
