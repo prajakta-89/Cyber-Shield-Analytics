@@ -6,6 +6,13 @@ By combining a Python-based "Watcher" script with a Streamlit web interface and 
   <img src="cybershield_dashboard.png" width="700"/>
 </p>
 
+## Repository Structure
+- ap.py: The main Streamlit dashboard code.
+- detector.py: The background Python script for threat detection.
+- requirements.txt: List of all libraries needed.
+- server_access.log: The dummy log file used for testing.
+- cyber_security_db.sql: The SQL commands to build your database.
+  
 ## Key Features:
 - Live Log Monitoring: Automatically scans server logs for keywords like "FAILED" or "ATTACK."
 - Dynamic Risk Scoring: Calculates threat levels based on event severity and asset criticality.
@@ -51,9 +58,7 @@ Analysis: When it finds a threat, it calculates a Risk Score using the formula:
 Storage: The script uses mysql-connector to INSERT the threat details (IP, Type, Timestamp) into your database.
 Visualization: The Streamlit app.py queries the database and turns those raw rows of data into beautiful, easy-to-read charts.
 
-Repository Structure
-- ap.py: The main Streamlit dashboard code.
-- detector.py: The background Python script for threat detection.
-- requirements.txt: List of all libraries needed.
-- server_access.log: The dummy log file used for testing.
-- cyber_security_db.sql: The SQL commands to build your database.
+### 7. Result Grid
+<p>
+  <img src="showcase_&_results/result_grid1.png" width="700"/>
+</p>
