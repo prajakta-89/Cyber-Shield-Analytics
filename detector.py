@@ -6,7 +6,7 @@ import os
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "Prajakta@567.", # Replace with your password
+    "password": " ", # Replace with your password
     "database": "cyber_security_db"
 }
 LOG_FILE = "server_access.log"
